@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+main {
+    flex: 2;
+}
+
+aside {
+    flex:1;
+}
+
+/* nav bar */
+.nav {
+    background-color: gray;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-title {
+    color: black;
+}
+
+.nav button {
+    color: white;
+    font-size: 15px;
+    background-color: blue;
+    height: 40px;
+    width: 80px;
+    box-shadow: black 2px 2px;
+}
+
+.card {
+    flex-direction: column;
+    display: flex;
+}
+.whitebox {
+    background-color: white;
+    outline: solid black 1px;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: row;
+}
+
+h3 {
+    color: grey;
+    align-items: center;
+}
+
+.ninja {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.ninja button {
+    color: black;
+    background-color: yellow;
+    padding: 3px;
+    box-shadow: 2px 2px;
+}
+
+.def2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.whitebox1 {
+    background-color: white;
+    outline: solid black 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.def-button {
+    color: black;
+    background-color: lightgreen;
+    padding: 4px;
+    justify-content:center;
+    box-shadow: 2px 2px;
+}
